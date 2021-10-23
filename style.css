@@ -1,0 +1,413 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+#niit {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 4px 0px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 120px;
+}
+
+#icons {
+  position: relative;
+  left: 780px;
+}
+
+#main {
+  position: relative;
+  left: 60px;
+  top: 60px;
+}
+
+#para {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#demo {
+  position: relative;
+  left: 45px;
+}
+
+#info {
+  margin-left: 40px;
+  margin-top: 75px;
+}
+
+.example {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 24px 24px;
+}
+
+.box {
+  margin: 4px 12px;
+  margin-left: 24px;
+}
+
+.imagebox {
+  height: 140px;
+}
+
+.title {
+  color: rgb(238, 49, 106);
+}
+
+.message {
+  font-weight: 500;
+  color: white;
+}
+
+#more {
+  margin-left: 32px;
+  background-color: rgb(238, 49, 106);;
+}
+
+.balls-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 220px;
+  margin-top: 46px;
+  opacity: 0.6;
+}
+
+.balls-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 220px;
+  margin-top: 8px;
+  opacity: 0.6;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: rgb(178, 115, 194);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-half {
+  height: 8px;
+  width: 4px;
+  background-color: rgb(178, 115, 194);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  background: #050101;
+  border-top: 1px solid #181616;
+  margin-top: 48px;
+  height: 354px;
+}
+
+.footer-card1 {
+  background: #050101;
+  border: none;
+  position: relative;
+  top: 54px;
+  left: 158px;
+  height: 70px;
+}
+
+#niit-1 {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 4px 0px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 4px;
+}
+
+#passage {
+  color: white;
+  position: relative;
+  top: 65px;
+  /* left: 50px; */
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-top: 54px;
+}
+
+.ref {
+  text-decoration: none;
+  color: white;
+}
+
+.points-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-top: 54px;
+}
+
+.ref-1 {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  height: 16px;
+  width: 100px;
+  background-image: linear-gradient(
+    to right,
+    rgb(78, 179, 170),
+    rgb(145, 64, 108),
+    rgb(145, 64, 108),
+    rgb(145, 64, 108)
+  );
+  /* border-radius: 50%; */
+  display: inline-block;
+  margin-top: 64px;
+  margin-left: 84px;
+}
+
+.contact-us {
+  font-weight: bold;
+  color: white;
+  margin-left: 110px;
+  /* padding: 2px; */
+  width: 130px;
+  margin-top: -6px;
+}
+
+.social-icons{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: white;
+  color: black;
+}
+
+.fa-twitter {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(165, 122, 122);
+  color: rgb(180, 60, 60);
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.footer-1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 780px) {
+  body {
+    width: 100%;
+  }
+
+  #icons {
+    position: relative;
+    left: 640px;
+  }
+
+  #gamer {
+    width: 180px;
+  }
+
+  #main {
+    position: relative;
+    left: 10px;
+    top: 120px;
+  }
+
+  #para {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  #demo {
+    position: relative;
+    left: 24px;
+  }
+
+  #niit {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 4px 0px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: 20px;
+  }
+
+  #info {
+    margin-left: 80px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+
+  #icons {
+    position: relative;
+    left: 280px;
+  }
+
+  #gamer {
+    width: 180px;
+  }
+
+  #main {
+    position: relative;
+    left: 10px;
+    top: 50px;
+  }
+
+  #para {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  #demo {
+    position: relative;
+    left: 24px;
+  }
+
+  #niit {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 4px 0px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: 20px;
+  }
+
+  #info {
+    margin-left: 80px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  body {
+    width: 100%;
+  }
+
+  #icons {
+    position: relative;
+    left: 260px;
+  }
+
+  #gamer {
+    width: 180px;
+  }
+
+  #main {
+    position: relative;
+    left: 10px;
+    top: 50px;
+  }
+
+  #para {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  #demo {
+    position: relative;
+    left: 4px;
+  }
+
+  #niit {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 4px 0px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: 20px;
+  }
+
+  #info {
+    margin-left: 60px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  body {
+    width: 103%;
+  }
+
+  #icons {
+    position: relative;
+    left: 240px;
+  }
+
+  #gamer {
+    width: 180px;
+  }
+
+  #main {
+    position: relative;
+    left: 10px;
+    top: 50px;
+  }
+
+  #para {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  #demo {
+    position: relative;
+    left: 4px;
+  }
+
+  #niit {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 4px 0px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: 20px;
+  }
+
+  #info {
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+}
