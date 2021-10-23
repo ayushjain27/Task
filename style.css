@@ -8,6 +8,8 @@ body {
   background: black;
 }
 
+/* Navbar Section */
+
 #niit {
   border: 2px solid white;
   display: inline-block;
@@ -22,6 +24,8 @@ body {
   position: relative;
   left: 780px;
 }
+
+/* Header Section */
 
 #main {
   position: relative;
@@ -39,10 +43,14 @@ body {
   left: 45px;
 }
 
+/* Info Section */
+
 #info {
   margin-left: 40px;
   margin-top: 75px;
 }
+
+/* Box Section */
 
 .example {
   display: flex;
@@ -54,10 +62,13 @@ body {
 .box {
   margin: 4px 12px;
   margin-left: 24px;
+  border-radius: 7px;
 }
 
 .imagebox {
   height: 140px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .title {
@@ -71,8 +82,10 @@ body {
 
 #more {
   margin-left: 32px;
-  background-color: rgb(238, 49, 106);;
+  background-color: rgb(238, 49, 106);
 }
+
+/* Balls Section */
 
 .balls-1 {
   display: flex;
@@ -105,6 +118,8 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
+
+/* Footer Section */
 
 .footer {
   display: flex;
@@ -189,9 +204,9 @@ body {
   margin-top: -6px;
 }
 
-.social-icons{
-    margin-top: 100px;
-    margin-left: -100px;
+.social-icons {
+  margin-top: 100px;
+  margin-left: -100px;
 }
 
 .fa {
@@ -211,12 +226,12 @@ body {
 }
 
 .fa-twitter {
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 }
 
 .fa-instagram {
-    background: rgb(165, 122, 122);
+  background: rgb(165, 122, 122);
   color: rgb(180, 60, 60);
 }
 .fa-linkedin {
@@ -224,11 +239,11 @@ body {
   color: white;
 }
 
-.footer-1{
-    text-align: center;
+.footer-1 {
+  text-align: center;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (min-width: 450px) and (max-width: 780px) {
   body {
     width: 100%;
   }
@@ -272,7 +287,36 @@ body {
     margin-left: 80px;
     margin-top: 25px;
   }
+
+  .box {
+    margin: 16px 12px;
+    margin-left: 45px;
+    border-radius: 7px;
+  }
+  
+  .balls-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    margin-right: 120px;
+    margin-top: 46px;
+    opacity: 0.6;
+  }
+  
+  .balls-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    margin-right: 120px;
+    margin-top: 8px;
+    opacity: 0.6;
+  }
+
+  .dots{
+    display: none;
+  }
 }
+
 
 @media only screen and (max-width: 450px) {
   body {
@@ -364,33 +408,61 @@ body {
     margin-left: 60px;
     margin-top: 25px;
   }
+
+  .box {
+    margin: 16px 12px;
+    margin-left: 38px;
+    border-radius: 7px;
+  }
+  
+  .balls-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    /* margin-right: 12px; */
+    margin-top: 46px;
+    opacity: 0.6;
+  }
+  
+  .balls-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    /* margin-right: 120px; */
+    margin-top: 8px;
+    opacity: 0.6;
+  }
+
+  .dots-1{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 330px) {
   body {
     width: 103%;
   }
-
+  
   #icons {
     position: relative;
     left: 240px;
   }
-
+  
   #gamer {
     width: 180px;
   }
-
+  
   #main {
     position: relative;
     left: 10px;
     top: 50px;
   }
-
+  
   #para {
     font-weight: bold;
     font-size: 14px;
   }
-
+  
   #demo {
     position: relative;
     left: 4px;
@@ -405,9 +477,109 @@ body {
     position: absolute;
     left: 20px;
   }
-
+  
   #info {
     margin-left: 20px;
     margin-top: 25px;
+  }
+  .box {
+    margin: 16px 12px;
+    margin-left: 32px;
+    border-radius: 7px;
+  }
+  
+  .balls-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    /* margin-right: 12px; */
+    margin-top: 46px;
+    opacity: 0.6;
+  }
+  
+  .balls-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    /* margin-right: 120px; */
+    margin-top: 8px;
+    opacity: 0.6;
+  }
+  
+  .dots-1{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  body {
+    width: 103%;
+  }
+  
+  #icons {
+    position: relative;
+    left: 200px;
+  }
+  
+  #gamer {
+    width: 180px;
+  }
+  
+  #main {
+    position: relative;
+    left: 10px;
+    top: 30px;
+  }
+  
+  #para {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  #demo {
+    position: relative;
+    left: 4px;
+  }
+
+  #niit {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 4px 0px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: 20px;
+  }
+  
+  #info {
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .box {
+    margin: 16px 12px;
+    margin-left: 24px;
+    border-radius: 7px;
+  }
+  
+  .balls-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    /* margin-right: 12px; */
+    margin-top: 46px;
+    opacity: 0.6;
+  }
+  
+  .balls-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    /* margin-right: 120px; */
+    margin-top: 8px;
+    opacity: 0.6;
+  }
+  
+  .dots-1{
+    display: none;
   }
 }
